@@ -1,0 +1,37 @@
+baseURL = "https://andreassen.dev"
+languageCode = "en-us"
+title = "andreassen.dev"
+theme="archie"
+copyright = "© Casper Salminen Andreassen"
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+[params]
+	mode="toggle"
+	useCDN=false
+	subtitle = "Personal site for Casper Salminen Andreassen"
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/casperandreassen"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/casper-andreassen-bb47a11b7/"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Projects"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
